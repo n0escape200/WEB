@@ -1,0 +1,8 @@
+.homeresultMain {
+  margin-top: 50px;
+}
+
+.homeresultContent {
+  display: flex;
+  gap: 25px;
+}

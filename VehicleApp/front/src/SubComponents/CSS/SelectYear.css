@@ -1,0 +1,25 @@
+.yearMain {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+}
+
+.yearContent {
+  display: flex;
+  gap: 20px;
+}
+
+.yearContent > .label > input {
+  width: 100px;
+  font-size: 23px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

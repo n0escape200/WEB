@@ -1,0 +1,29 @@
+.optionMain:hover {
+  cursor: pointer;
+  background-color: rgb(156, 220, 254);
+  transition: 200ms;
+}
+
+.optionContent > img {
+  aspect-ratio: 16/11;
+  height: 150px;
+}
+
+.optionContent {
+  border: 0.1em solid black;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.optionContent > .right {
+  margin-right: 20px;
+}
+
+.optionContent > .middle,
+.optionContent > .right {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: 20px;
+}

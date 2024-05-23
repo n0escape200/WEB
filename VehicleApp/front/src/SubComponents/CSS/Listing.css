@@ -1,0 +1,28 @@
+.portraitContent {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10px;
+}
+
+.portraitMain {
+  position: relative;
+}
+
+.portraitContent > img {
+  background-image: url("https://img.freepik.com/free-photo/gray-smooth-textured-paper-background_53876-101833.jpg");
+  background-repeat: no-repeat;
+  aspect-ratio: 16/9;
+  width: 200px;
+}
+
+.carList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.listingMain:hover {
+  cursor: pointer;
+}

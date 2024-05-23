@@ -1,0 +1,44 @@
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.itemContent > .middle {
+  display: flex;
+  gap: 50px;
+  border: 0.1em solid black;
+  width: fit-content;
+  padding: 15px;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.itemContent > .middle > .gallery > .photos > img {
+  aspect-ratio: 16/11;
+  height: 70px;
+  padding: 10px;
+}
+.itemContent > .middle > .gallery {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemContent > .middle > .gallery > .photos {
+  display: flex;
+  width: 600px;
+  overflow-x: scroll;
+}
+
+.itemContent > .middle > .gallery > .mainphoto > img {
+  aspect-ratio: 16/11;
+  width: 600px;
+}
+
+.itemContent > .middle > .information {
+  display: flex;
+  flex-direction: column;
+}

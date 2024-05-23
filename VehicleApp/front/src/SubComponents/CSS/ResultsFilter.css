@@ -1,0 +1,49 @@
+.resultsfilterMain {
+  margin-top: 25px;
+}
+
+.resultsfilterContent > .top {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 27px;
+}
+
+.Cars {
+  background-color: rgb(172, 254, 156);
+}
+.Motorcycles {
+  background-color: rgb(156, 220, 254);
+}
+.Trucks {
+  background-color: rgb(254, 211, 156);
+}
+.Parts {
+  background-color: rgb(254, 231, 156);
+}
+.Cars,
+.Motorcycles,
+.Trucks,
+.Parts {
+  text-shadow: 1px 1px black;
+  color: white;
+}
+
+.resultsfilterContent > .top > .option:hover {
+  cursor: pointer;
+}
+
+.resultsfilterContent > .top > .option {
+  padding: 5px 25px 5px 25px;
+}
+
+.resultsfilterContent > .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+  gap: 10px;
+}
+
+#brand > select {
+  padding: 10px 15px 10px 15px;
+}
