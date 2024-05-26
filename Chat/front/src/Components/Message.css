@@ -1,0 +1,28 @@
+.content > .right {
+  background-color: green;
+  color: white;
+  border-radius: 25px 25px 25px 0;
+  padding: 10px;
+}
+
+.content > .left {
+  background-color: rgb(77, 136, 255);
+  color: white;
+  border-radius: 25px 25px 25px 0;
+  padding: 10px;
+}
+
+.messageContainer > .content {
+  width: fit-content;
+  padding: 5px;
+  font-size: 23px;
+}
+
+.messageContainer {
+  display: flex;
+  width: fit-content;
+}
+
+.floatRight {
+  margin-left: auto;
+}

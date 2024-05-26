@@ -1,0 +1,46 @@
+.homeContainer {
+  height: 500px;
+  width: 1200px;
+}
+
+.chatHistory {
+  background-color: rgba(217, 217, 217, 0.388);
+  width: 100%;
+  height: 75vh;
+  border-radius: 5px 5px 5px 5px;
+  border: 0.1em solid rgba(217, 217, 217, 0.5);
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: scroll;
+}
+
+.textInput {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.textInput > input {
+  width: 90%;
+  font-size: 21px;
+}
+
+.textInput > span {
+  font-size: 31px;
+  width: 9%;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+.textInput > span:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
