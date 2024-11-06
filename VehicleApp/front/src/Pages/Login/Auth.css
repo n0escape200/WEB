@@ -1,0 +1,11 @@
+.state{
+    margin: auto;
+    color: cornflowerblue;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.state:hover{
+    cursor: pointer;
+    color: darkred;
+}

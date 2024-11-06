@@ -1,0 +1,5 @@
+.add:hover{
+    color: cornflowerblue;
+    transition: 0.2s;
+    cursor: pointer;
+}

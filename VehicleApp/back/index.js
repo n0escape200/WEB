@@ -6,7 +6,7 @@ import cors from "cors";
 import Car from "./Routes/Car.js";
 import Data from "./Routes/Data.js";
 const uri =
-  "mongodb+srv://john:canalulu1!@cluster0.njq1wv3.mongodb.net/VehicleApp?retryWrites=true&w=majority";
+  "mongodb://localhost:27017/VehicleApp";
 
 const app = express();
 

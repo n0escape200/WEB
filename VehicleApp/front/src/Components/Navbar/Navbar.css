@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    position: sticky;
+}
+
+.navbar > .left{
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+
+.auth:hover{
+    cursor:pointer;
+    color: greenyellow;
+}
+
+.user:hover{
+    cursor: pointer;
+    animation: changeColor 0.2s forwards;
+}
+
+@keyframes changeColor {
+    to{
+        color: cornflowerblue;
+    }
+}
+
+.userSelected{
+    animation: changeColorSelected 0.2s forwards;
+}
+@keyframes changeColorSelected {
+    to{
+        color: red;
+    }
+}
+
+.userSelected:hover{
+    cursor: pointer;
+}
+
+.arrowSelect {
+    animation: rotateTo90 0.3s forwards;
+}
+
+.arrowDeselect {
+    animation: rotateTo0 0.3s forwards;
+}
+
+@keyframes rotateTo90 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotateTo0 {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.optionMenu{
+    overflow: hidden;
+    animation: optionsFadeIn 0.5s forwards;
+}
+
+@keyframes optionsFadeIn {
+    from {
+        height: 0;
+    }
+    to{
+        height: 500%;
+    }
+}
+
+.optionMenuClose{
+    overflow: hidden;
+    animation: optionsFadeOut 0.5s forwards;
+}
+@keyframes optionsFadeOut {
+    from {
+        height: 500%;
+    }
+    to{
+        height: 0;
+    }
+}
